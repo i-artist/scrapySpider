@@ -16,7 +16,7 @@ from twisted.enterprise import adbapi
 #
 # class MysqlPipeline(object):
 #     def __init__(self):
-#         self.conn = pymysql.connect(host="qdm168866545.my3w.com" ,port=3306,user="qdm168866545",password="zhong1023",database="qdm168866545_db" , charset='utf8')
+#         self.conn = pymysql.connect(host="qdm168866545.my3w.com" ,port=3306,user="qdm168866545",password="********",database="qdm168866545_db" , charset='utf8')
 #         self.cursor = self.conn.cursor()
 #
 #     def process_item(self,item,spider):
@@ -35,7 +35,7 @@ class MysqlPipeline(object):
             host = "123.57.176.134",
             # database = "DC_XCAR_BBS",
             user = "shenen.zhong",
-            password = "zhong0000@"
+            password = "*******"
         )
 
         self.dbpool = adbapi.ConnectionPool("pymssql",**dbparams)
