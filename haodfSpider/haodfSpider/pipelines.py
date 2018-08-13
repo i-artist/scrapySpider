@@ -15,9 +15,9 @@ class HaodfInsertSqlPipeline(object):
     def __init__(self):
         dbparams = dict(
             host = "123.56.196.177",
-            database = "Test",
+            database = "*******",
             user = "shengen.zhong",
-            password = "zhong0000@"
+            password = "**********"
         )
 
         self.dbpool = adbapi.ConnectionPool("pymssql",**dbparams)
