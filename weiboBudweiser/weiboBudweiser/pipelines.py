@@ -18,7 +18,7 @@ class WeiboInsertSqlPipline(object):
             host = "123.56.196.177",
             database = "SinaWeiboApi",
             user = "shengen.zhong",
-            password = "zhong0000@"
+            password = "*********"
         )
 
         self.dbpool = adbapi.ConnectionPool("pymssql",**dbparams)
