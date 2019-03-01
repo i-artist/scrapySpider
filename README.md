@@ -12,3 +12,5 @@
 为百威写的爬虫项目，因为微博数据量的庞大，所以采取了使用redis进行分布式的爬取，对爬取的url进行hashlib的去重，请求携带的cookie池是使用python的Flask搭建的（其实不携带cookie也可以，设置下载延迟，部署到不同的服务器），在数据的存储的pipelines使用了异步存储，提高了存储的效率。<br>
 # WeChat: zhong_888520 , Email: zhong_heart@163.com 
 
+## 项目启动方法 scrapy crawl [SpiderName]
+
